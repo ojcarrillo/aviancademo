@@ -42,7 +42,7 @@ public class ServicioWeb {
     
     public static void main(String[] args) {
 		//SpringApplication.run(AviancaDemoApplication.class, args);
-                final String uri = "http://localhost:7001/Avianca";
+                final String uri = "http://0.0.0.0:7001/Avianca";
                 System.out.println("DEPLOYING");
                 
                 System.out.println("Endpoint WSDL >> "+uri);
